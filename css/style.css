@@ -33,7 +33,7 @@ a {
   display: none;
 }
 
-/* -------------- Navbar style ------------ */
+/* navigation */
 nav {
   padding: var(--defaultPadding);
   display: flex;
@@ -100,8 +100,7 @@ nav {
   box-shadow: rgba(94, 172, 233, 0.35) 0px 5px 15px;
 }
 
-/* ------------------- */
-/* -------------- Domain section ------------ */
+/* Domain */
 
 #domain {
   padding: var(--defaultPadding);
@@ -155,8 +154,8 @@ nav {
 .ml-120 {
   margin-left: 120px;
 }
-/* ------------------------- */
-/* --------------- Hosting  ---------------- */
+
+/* Host */
 
 #hosting {
   padding: var(--defaultPadding);
@@ -186,8 +185,7 @@ nav {
   padding-left: 70px;
 }
 
-/* --------------------------- */
-/* -------------- Features ----------- */
+/* Features */
 #features {
   padding: var(--defaultPadding);
 }
@@ -219,9 +217,8 @@ nav {
   font-size: 14px;
   color: var(--secondaryColor);
 }
-/* --------------------------- */
 
-/* -------- Pricing ------------- */
+/* Pricing */
 #pricing {
   background: linear-gradient(166deg, #4ce1fd, #1f61ddd4);
   display: flex;
@@ -320,8 +317,8 @@ nav {
 #color-white {
   color: #ffffff;
 }
-/* ---------------------------- */
-/* ------------ About ------------ */
+
+/* About */
 
 #about {
   padding: var(--defaultPadding);
@@ -390,8 +387,8 @@ nav {
   font-weight: 400;
   font-size: 16px;
 }
-/* ------------------------------------- */
-/* ------------ Register ---------------- */
+
+/* Register */
 
 #register {
   padding: var(--defaultPadding);
@@ -402,6 +399,7 @@ nav {
   justify-content: space-between;
   align-items: center;
   margin: 20px 0;
+  border-color: #9ba1af;
 }
 
 .register-content {
@@ -423,8 +421,8 @@ nav {
   border: 2px solid #b6cbef;
 }
 
-/* -------------------- */
-/* --------- Footer ----------- */
+
+/* Footer */
 
 #footer {
   margin: 80px 0 40px;
@@ -459,7 +457,7 @@ nav {
   text-decoration: underline;
 }
 
-/* ---------secial-midea-icon ------- */
+/* icon */
 
 .social-media {
   width: 160px;
@@ -474,4 +472,11 @@ nav {
   height: 30px;
 }
 
-/* --------------- Complete ---------------------- */
+/* hover */
+
+.list-item:hover {
+  background: linear-gradient(0.25turn, #3f87a6, #ebf8e1, #f69d3c);
+  border-radius: 30px;
+}
+
+
